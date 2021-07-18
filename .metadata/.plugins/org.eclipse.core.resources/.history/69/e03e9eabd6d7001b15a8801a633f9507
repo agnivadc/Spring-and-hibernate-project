@@ -1,0 +1,5 @@
+package com.agniva.hibernate.demo.entity;
+
+public class InstructorDetail {
+
+}

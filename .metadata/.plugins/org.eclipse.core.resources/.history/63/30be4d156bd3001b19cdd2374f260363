@@ -1,0 +1,11 @@
+package com.agniva.springdemo;
+
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		
+		return "Practice ypur backhand volley!";
+	}
+
+}

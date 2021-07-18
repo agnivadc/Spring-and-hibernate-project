@@ -1,0 +1,5 @@
+package com.agniva.springdemo.mvc;
+
+public class HomeController {
+
+}

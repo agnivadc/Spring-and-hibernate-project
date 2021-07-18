@@ -1,0 +1,33 @@
+package com.agniva.springdemo;
+
+public class CricketCoach implements Coach {
+
+	private FortuneService fortuneService;
+		
+	public CricketCoach() {
+		System.out.println("CricketCoach: Inside the default Constructor");
+	}
+
+	public CricketCoach(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+	
+	//our setter method
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+
+	@Override
+	public String getDailyWorkout() {
+
+		return "Practice 500 balls from the machine";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		 
+		return "Impossible is Nothing! : " + fortuneService.getFortune();
+	}
+
+
+}

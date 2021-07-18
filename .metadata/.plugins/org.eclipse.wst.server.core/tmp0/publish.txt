@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Jun 26 09:31:00 IST 2021
+org.eclipse.jst.jee.server\:/binary\:D\:\\Udemy\\Spring\\workspace\\spring-mvc-demo\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.8.jar=WEB-INF/lib/spring-web-5.3.8.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\Udemy\\Spring\\workspace\\spring-mvc-demo\\src\\main\\webapp\\WEB-INF\\lib\\spring-web-5.3.8-sources.jar=WEB-INF/lib/spring-web-5.3.8-sources.jar
